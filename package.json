@@ -1,0 +1,41 @@
+{
+  "name": "personality-insights",
+  "version": "0.0.1",
+  "description": "Esta es una aplicación web que se implementó para ser una herramienta tecnológica y estadística para complementar los análisis psicológicos que conducen los evaluadores en las empresas para analizar los recursos humanos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/samigc/PersonalityInsights.git"
+  },
+  "keywords": [
+    "analysis",
+    "insights",
+    "personality",
+    "nodejs",
+    "angular2",
+    "sql",
+    "server",
+    "azure"
+  ],
+  "author": "ML",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/samigc/PersonalityInsights/issues"
+  },
+  "homepage": "https://gitlab.com/samigc/PersonalityInsights#README",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "moment": "^2.18.1",
+    "mssql": "^4.0.4",
+    "watson-developer-cloud": "^2.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
